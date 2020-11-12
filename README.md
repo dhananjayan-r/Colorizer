@@ -16,4 +16,4 @@ Black and white image colorization with OpenCV.
   * [License](#license)
   * [Credits](#credits)
 ## Demo
-[![Demo CountPages alpha](https://www.youtube.com/watch?v=aZla1ttZHaw)]
+[![Demo CountPages alpha](https://gifs.com/gif/p8Mxk2)]

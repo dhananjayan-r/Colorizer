@@ -16,5 +16,5 @@ Black and white image colorization with OpenCV.
   * [License](#license)
   * [Credits](#credits)
 ## Demo
-![Alt Text](https://j.gifs.com/NL4zXK.gif)
+![Alt Text](https://j.gifs.com/2xVL2P.gif)
 

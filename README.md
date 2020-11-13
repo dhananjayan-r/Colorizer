@@ -69,3 +69,14 @@ pip install -r requirements.txt
         colored_c7.jpg
         colored_c8.jpg
 ```
+## To Do
+- To Convert the application to colorize black and white videos.
+
+## Bug / Feature Request
+If you find a bug , kindly open an issue [here](https://github.com/dhananjayan-r/Colorizer/issues) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/dhananjayan-r/Colorizer/issues). Please include sample queries and their corresponding results.
+
+## Technologies Used
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+[<img target="_blank" src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" width=200>](https://opencv.org/)

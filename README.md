@@ -104,3 +104,6 @@ Copyright 2020 Dhananjayan R
    See the License for the specific language governing permissions and
    limitations under the License.
 
+## Credits
+- [“ Black and white image colorization with OpenCV and Deep Learning” by Dr. Adrian Rosebrok "](https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/) - This project wouldn't have been possible without these references.
+- [The official publication of Zhang et al.](http://richzhang.github.io/colorization/)

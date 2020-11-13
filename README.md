@@ -26,18 +26,19 @@ Image colorization is the process of taking an input grayscale (black and white)
 When I learned linear algebra and came to know about how the machine inteprets pictures as tensors and concept of image segmentation. I remember there were some movies which was restored and picutured in theatre. I just came across Research papers of University of california in image colorization. And most iimportantly when I colorized photos of my Grandmother with gorgeous saree, that smile in my mother's face worth it.
 
 ## Technical Aspect
-The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, Colorful Image Colorization. Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.
+-The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, [Colorful Image Colorization](http://richzhang.github.io/colorization/). Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.
 
-Previous approaches to black and white image colorization relied on manual human annotation and often produced desaturated results that were not “believable” as true colorizations.
+-Previous approaches to black and white image colorization relied on manual human annotation and often produced desaturated results that were not “believable” as true colorizations.
 
-Zhang et al. decided to attack the problem of image colorization by using Convolutional Neural Networks to “hallucinate” what an input grayscale image would look like when colorized.
+-Zhang et al. decided to attack the problem of image colorization by using Convolutional Neural Networks to “hallucinate” what an input grayscale image would look like when colorized.
 
-To train the network Zhang et al. started with the ImageNet dataset and converted all images from the RGB color space to the Lab color space.
-Similar to the RGB color space, the Lab color space has three channels. But unlike the RGB color space, Lab encodes color information differently:
-                      •	The L channel encodes lightness intensity only
-                      •	The a channel encodes green-red.
-                      •	And the b channel encodes blue-yellow.
+-To train the network Zhang et al. started with the ImageNet dataset and converted all images from the RGB color space to the Lab color space.
 
-As explained in the original paper, the authors, embraced the underlying uncertainty of the problem by posing it as a classification task using class-rebalancing at training time to increase the diversity of colors in the result. The Artificial Intelligent (AI) approach is implemented as a feed-forward pass in a CNN (“Convolutional Neural Network”) at test time and is trained on over a million color images.
+-Similar to the RGB color space, the Lab color space has three channels. But unlike the RGB color space, Lab encodes color information differently:
+                      -•	The L channel encodes lightness intensity only
+                      -•	The a channel encodes green-red.
+                      -•	And the b channel encodes blue-yellow.
 
-The color photos were decomposed using Lab model and “L channel” is used as an input feature and “a and b channels” as classification labels as shown in below diagram.
+-As explained in the original paper, the authors, embraced the underlying uncertainty of the problem by posing it as a classification task using class-rebalancing at training time to increase the diversity of colors in the result. The Artificial Intelligent (AI) approach is implemented as a feed-forward pass in a CNN (“Convolutional Neural Network”) at test time and is trained on over a million color images.
+
+-The color photos were decomposed using Lab model and “L channel” is used as an input feature and “a and b channels” as classification labels as shown in below diagram.

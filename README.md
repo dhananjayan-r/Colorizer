@@ -88,7 +88,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 [Dhananjayan](https://www.linkedin.com/in/dhananjayan-r-1b91b1148/) |)
 
 ## License
-[![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)]
+[Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)
 
 Copyright 2020 Dhananjayan R
 

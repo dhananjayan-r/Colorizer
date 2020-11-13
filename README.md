@@ -80,4 +80,4 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## Technologies Used
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" width=200>](https://opencv.org/)
+[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/730px-OpenCV_Logo_with_text_svg_version.svg.png" width=200>](https://opencv.org/)

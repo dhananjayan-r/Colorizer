@@ -80,5 +80,10 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## Technologies Used
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/730px-OpenCV_Logo_with_text_svg_version.svg.png" width=200>](https://opencv.org/)[<img target="_blank" src="https://miro.medium.com/max/4000/0*cSCGhssjeajRD3qs.png" width=200>](https://opencv.org/)
+[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/730px-OpenCV_Logo_with_text_svg_version.svg.png" width=200>](https://opencv.org/)[<img target="_blank" src="https://miro.medium.com/max/4000/0*cSCGhssjeajRD3qs.png" width=200>](https://www.streamlit.io/)
+
+## Team
+[![Dhananjayan]()](https://www.linkedin.com/in/dhananjayan-r-1b91b1148/) |
+-|
+[Dhananjayan](https://www.linkedin.com/in/dhananjayan-r-1b91b1148/) |)
 

@@ -52,3 +52,26 @@ pip install -r requirements.txt
  ```bash
  $ streamlit run app.py
  ```
+ 
+## Directory Tree 
+```
+|   
+|   app.py
+|   
+|   
++---Input_images
+|       che-guevara-.jpg
+|       pexels-pixabay-141651.jpg
+|       pexels-pixabay-36755.jpg
+|       
++---models
+|       colorization_release_v2.caffemodel
+|       models_colorization_deploy_v2.prototxt
+|       pts_in_hull.npy
+|       
+\---Result_images
+        colored_c1.jpg
+        colored_c7.jpg
+        colored_c8.jpg
+        
+```

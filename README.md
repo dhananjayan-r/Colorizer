@@ -23,6 +23,9 @@ Image colorization is the process of taking an input grayscale (black and white)
 
 When I learned linear algebra and came to know about how the machine inteprets pictures as tensors and concept of image segmentation. I remember there were some movies which was restored and picutured in theatre. I just came across Research papers of University of california in image colorization. And most iimportantly when I colorized photos of my Grandmother with gorgeous saree, that smile in my mother's face worth it.
 
+Here is a photo of Che guevera from 60's colorized:
+[<img target="_blank" src="https://github.com/dhananjayan-r/Colorizer/blob/master/Input_images/che-guevara-wallpapers-hd-best-hd-photos-1080p-6xcp2u-741x988.jpg" width=500>][<img target="_blank" src="https://github.com/dhananjayan-r/Colorizer/blob/master/Result_images/colored_c1.jpg" width=500>]
+
 ## Technical Aspect
 - The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, [Colorful Image Colorization](http://richzhang.github.io/colorization/). Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.
 
@@ -41,7 +44,7 @@ When I learned linear algebra and came to know about how the machine inteprets p
 
 - The color photos were decomposed using Lab model and “L channel” is used as an input feature and “a and b channels” as classification labels as shown in below diagram.
 
-[<img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061015-eb844a80-25c6-11eb-8850-bcc9f74d91e6.png" width=500>]
+<img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061015-eb844a80-25c6-11eb-8850-bcc9f74d91e6.png" width=500>
 
 - The trained model (that is available publically), we can use it to colorize a new B&W photo, where this photo will be the input of the model or the component “L”. The output of the model will be the other components “a” and “b”, that once added to the original “L”, will return a full colorized image.
 
@@ -51,7 +54,7 @@ When I learned linear algebra and came to know about how the machine inteprets p
 - Combine the input L channel with the predicted ab channels.
 - Convert the Lab image back to RGB.
 
-[<img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061033-f048fe80-25c6-11eb-8bc5-d6312c7021b6.png" width=500>]
+<img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061033-f048fe80-25c6-11eb-8bc5-d6312c7021b6.png" width=500>
 
 ## Installation And Run 
 1.The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:

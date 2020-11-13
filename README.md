@@ -79,4 +79,5 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Technologies Used
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
+
 [<img target="_blank" src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" width=200>](https://opencv.org/)

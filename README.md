@@ -32,12 +32,12 @@ When I learned linear algebra and came to know about how the machine inteprets p
 
 - Zhang et al. decided to attack the problem of image colorization by using Convolutional Neural Networks to  “hallucinate” what an input grayscale image would look like when colorized.
 
-- To train the network Zhang et al. started with the ImageNet dataset and converted all images from the RGB color space to the Lab color space.
+- To train the network Zhang et al. started with the [ImageNet dataset](http://image-net.org/) and converted all images from the RGB color space to the Lab color space.
 
 - Similar to the RGB color space, the Lab color space has three channels. But unlike the RGB color space, Lab encodes color information differently:
-  - •	The L channel encodes lightness intensity only
-  - •	The a channel encodes green-red.
-  - •	And the b channel encodes blue-yellow.
+  - The **L channel** encodes lightness intensity only
+  - The **a channel** encodes green-red.
+  - And the **b channel** encodes blue-yellow.
 
 - As explained in the original paper, the authors, embraced the underlying uncertainty of the problem by posing it as a classification task using class-rebalancing at training time to increase the diversity of colors in the result. The Artificial Intelligent (AI) approach is implemented as a feed-forward pass in a CNN (“Convolutional Neural Network”) at test time and is trained on over a million color images.
 

@@ -41,7 +41,17 @@ When I learned linear algebra and came to know about how the machine inteprets p
 
 - The color photos were decomposed using Lab model and “L channel” is used as an input feature and “a and b channels” as classification labels as shown in below diagram.
 
+[<img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061015-eb844a80-25c6-11eb-8850-bcc9f74d91e6.png" width=500>]
 
+- The trained model (that is available publically), we can use it to colorize a new B&W photo, where this photo will be the input of the model or the component “L”. The output of the model will be the other components “a” and “b”, that once added to the original “L”, will return a full colorized image.
+
+## The entire (simplified) process can be summarized as:
+- Convert all training images from the RGB color space to the Lab color space.
+- Use the L channel as the input to the network and train the network to predict the ab channels.
+- Combine the input L channel with the predicted ab channels.
+- Convert the Lab image back to RGB.
+
+[<img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061033-f048fe80-25c6-11eb-8bc5-d6312c7021b6.png" width=500>]
 
 ## Installation And Run 
 1.The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
@@ -88,7 +98,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 [Dhananjayan](https://www.linkedin.com/in/dhananjayan-r-1b91b1148/) |)
 
 ## License
-[Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)
+[![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)]
 
 Copyright 2020 Dhananjayan R
 

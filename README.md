@@ -5,7 +5,7 @@ Black and white image colorization with OpenCV.
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Technical Aspect](#technical-aspect)
-  * [Installation And Run](#installation and run)
+  * [Installation And Run](#installation-and-run)
   * [Directory Tree](#directory-tree)
   * [To Do](#to-do)
   * [Bug / Feature Request](#bug---feature-request)

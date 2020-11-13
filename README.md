@@ -24,7 +24,7 @@ Image colorization is the process of taking an input grayscale (black and white)
 When I learned linear algebra and came to know about how the machine inteprets pictures as tensors and concept of image segmentation. I remember there were some movies which was restored and picutured in theatre. I just came across Research papers of University of california in image colorization. And most iimportantly when I colorized photos of my Grandmother with gorgeous saree, that smile in my mother's face worth it.
 
 Here is a photo of Che guevera from 60's colorized:
-[<img target="_blank" src="https://github.com/dhananjayan-r/Colorizer/blob/master/Input_images/che-guevara-wallpapers-hd-best-hd-photos-1080p-6xcp2u-741x988.jpg" width=500>][<img target="_blank" src="https://github.com/dhananjayan-r/Colorizer/blob/master/Result_images/colored_c1.jpg" width=500>]
+<img target="_blank" src="https://github.com/dhananjayan-r/Colorizer/blob/master/Input_images/che-guevara-wallpapers-hd-best-hd-photos-1080p-6xcp2u-741x988.jpg" width=300><img target="_blank" src="https://github.com/dhananjayan-r/Colorizer/blob/master/Result_images/colored_c1.jpg" width=300>
 
 ## Technical Aspect
 - The technique we’ll be covering here today is from Zhang et al.’s 2016 ECCV paper, [Colorful Image Colorization](http://richzhang.github.io/colorization/). Developed at the University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros.

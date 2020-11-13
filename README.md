@@ -83,7 +83,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/730px-OpenCV_Logo_with_text_svg_version.svg.png" width=200>](https://opencv.org/)[<img target="_blank" src="https://miro.medium.com/max/4000/0*cSCGhssjeajRD3qs.png" width=200>](https://www.streamlit.io/)
 
 ## Team
-[![Dhananjayan](https://avatars1.githubusercontent.com/u/71431013?s=400&u=75dd4c7e7d0901bc0b7cedbe9c3d7201188ec37f&v=4)](https://www.linkedin.com/in/dhananjayan-r-1b91b1148/) |
+[<img target="_blank" src="https://avatars1.githubusercontent.com/u/71431013?s=400&u=75dd4c7e7d0901bc0b7cedbe9c3d7201188ec37f&v=4" width=200>](https://www.linkedin.com/in/dhananjayan-r-1b91b1148/) |
 -|
 [Dhananjayan](https://www.linkedin.com/in/dhananjayan-r-1b91b1148/) |)
 

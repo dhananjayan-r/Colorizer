@@ -47,7 +47,7 @@ Here is a photo of Che guevara from 60's colorized:
 
 <img target="_blank" src="https://user-images.githubusercontent.com/71431013/99061015-eb844a80-25c6-11eb-8850-bcc9f74d91e6.png" width=500>
 
-- The trained model (that is available publically and in models folder of this repo or [download it by clicking here](https://people.eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/colorization_release_v2.caffemode)), we can use it to colorize a new B&W photo, where this photo will be the input of the model or the component “L”. The output of the model will be the other components “a” and “b”, that once added to the original “L”, will return a full colorized image.
+- The trained model (that is available publically and in models folder of this repo or [download it by clicking here]( http://eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/colorization_release_v2.caffemodel)), we can use it to colorize a new B&W photo, where this photo will be the input of the model or the component “L”. The output of the model will be the other components “a” and “b”, that once added to the original “L”, will return a full colorized image.
 
 ## The entire (simplified) process can be summarized as:
 - Convert all training images from the RGB color space to the Lab color space.
